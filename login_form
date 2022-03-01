@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+
+    <style>
+        *{/*모든테그에 다 먹인다는 뜻*/
+            font-family: 'Single Day', cursive;
+
+        }
+        .wrap{
+            width: 600px;
+            margin: auto;
+        }
+        .mytitle {
+            background-color: darkorange;
+
+            width : 300px;
+            height: 200px;
+
+            color: darkorange;
+            text-align: center;
+
+            background-image: url("https://cdn.imweb.me/upload/S20210406ae69853331cfb/dda59999ef7a3.jpg");
+            background-size: cover;
+            background-position: center;
+
+            border-radius: 20px;
+
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="mytitle">
+            <h5>로그인 페이지 입니다</h5>
+        </div>
+
+        <p> ID: <input type="text"/></p>
+        <p> PW: <input type="text"/></p>
+        <button>login</button>
+    </div>
+</body>
+</html>
